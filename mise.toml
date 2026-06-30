@@ -1,0 +1,8 @@
+[tools]
+node = "26"
+
+[tasks.build]
+run = ["npm install", "npm run build"]
+
+[tasks.update]
+run = ["npm update"]
